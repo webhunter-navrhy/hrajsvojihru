@@ -3,7 +3,7 @@
     <div>
       <p class="stitek">Kontakt</p>
       <h2>{{ nadpis|default(none) or 'Chceš vědět víc?' }}</h2>
-      <p class="uvod">{{ text|default(none) or 'Napiš nebo zavolej. Společně zjistíme, jestli ti můžu pomoct, a když ne, řeknu ti to na rovinu.' }}</p>
+      <p class="uvod">{{ text|default(none) or 'Napiš mi. Společně zjistíme, jestli ti můžu pomoct, a když ne, řeknu ti to na rovinu.' }}</p>
       <p class="kont-r"><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a><br><a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a></p>
     </div>
     {% include "_formular.html" %}

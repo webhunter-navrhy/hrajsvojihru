@@ -1,16 +1,16 @@
 {
   "znamka": 7,
   "slabiny": [
-    "Sekce „Co všechno se ti má vyplatit“ (PC i mobil): čísla 1–6 jsou pryč, ale šest hodnot zůstalo jako béžová mřížka karet s čárkou nahoře. Na PC je to tabulka 3×2, na mobilu šest karet pod sebou, takže pořád působí šablonovitě. Oprava: udělat z nich kompaktní checklist ve stylu bloku „Moje rozhodnutí“. Každý řádek bude mít hodnotu (Peníze, Čas…), otázku a malé přepínače ano / ne / ještě ověřit, ať koncept „hraj svoji hru“ pokračuje i tady.",
-    "Sekce „Tři cesty, jak hrát svoji hru“: obří čísla jsou pryč, ale Konzultace, Workshop a Supervize jsou tři stejné béžové karty se stejnou čárkou, jen krátký text a „Zjistit víc“. Forma služby se z karet nepozná. Oprava: u každé karty uvést formu a délku. U Workshopu doplnit „3 dny“ podle briefu, u Konzultace a Supervize napsat jen to, co je doložené. Karty odlišit i tvarem nebo šířkou (např. Workshop jako hlavní, širší), ne jen textem.",
-    "Kontakt „Chceš vědět víc?“ (mobil, snímek 10) a site.json: telefon +420 739 341 710 v briefu není, brief uvádí jen rosta@gatrea.com. Oprava: ověřit číslo na rosta-ocenasek.cz nebo v podkladech klientky a zdroj zapsat do briefu. Když ho ověřit nejde, telefon odstranit a text „Napiš nebo zavolej“ změnit na „Napiš mi“."
+    "Kontakt „Chceš vědět víc?“ (PC snímek 7, mobil snímky 10–11) a patička: minulá výtka není opravená. Telefon +420 739 341 710 je na webu dál, i když ho brief neuvádí (je tam jen rosta@gatrea.com), a text pořád zní „Napiš nebo zavolej“. Oprava: číslo ověřit na rosta-ocenasek.cz nebo v podkladech klientky a zdroj zapsat do briefu. Když to nepůjde, odstranit ho z kontaktu, patičky i JSON-LD a text změnit na „Napiš mi“.",
+    "Hlavička na mobilu (390 px, všechny snímky): menu se láme na dva řádky. Konzultace je vpravo vedle „Ozvi se“, Workshop a Supervize spadnou pod logo. Odkazy jsou vysoké 36 px a „Ozvi se“ 33 px (QA: 5 cílů pod 40 px). Oprava: na mobilu nechat v jednom řádku jen logo, „Ozvi se“ a přepínač tématu. Tři služby dát do rozbalovacího menu nebo do vodorovného řádku pod hlavičku, s cíli aspoň 44 px.",
+    "Hero na mobilu (snímek 1): štítek „NEMOVITOSTI · PODNIKÁNÍ · MAJETEK · PŘÍJEM · SVOBODA“ se zalomí tak, že druhý řádek začíná osiřelou tečkou „· SVOBODA“. Oprava: mezi tečku a slovo dát nezlomitelnou mezeru, nebo na mobilu štítek zkrátit či rozdělit do dvou vyvážených řádků."
   ],
   "zavazne": [],
   "silne": [
-    "Všechny čtyři minulé výtky k hlavičce a hero jsou opravené. Na 390 a 360 px už nic nepřetéká (scrollWidth 390/360). Přepínač tématu je celý vidět a odkazy Konzultace, Workshop a Supervize jsou na mobilu ve druhém řádku hlavičky.",
-    "Hero na PC má teď portrét Rosti v pravé polovině, takže kompozice je vyvážená. Pás „MŮŽU? × CHCI? × VYPLATÍ SE MI TO?“ zmizel a tři otázky zůstaly jen v bloku „Můj způsob“ s interaktivním „Moje rozhodnutí“, což je nejsilnější nápad webu.",
-    "Číslování 1–6 a 1/2/3 je odstraněné. Paleta a písmo drží brand z rosta-ocenasek.cz (olivová + světlý podklad) a texty jsou z podkladů klientky, osobní a konkrétní („Mohl jsem koupit firmu…“)."
+    "Výtka 1 je opravená: „Co všechno se ti má vyplatit“ je teď kompaktní checklist (hodnota, otázka, ano / ne / ještě ověřit). Navazuje na blok „Moje rozhodnutí“, takže koncept „hraj svoji hru“ se táhne celou stránkou.",
+    "Výtka 2 je opravená: u každé ze tří cest je forma služby (Jednorázově, 3 dny · hlavní program, Průběžně) a Workshop je na PC širší jako hlavní nabídka.",
+    "Brand je čitelný: fonty a olivová barva z rosta-ocenasek.cz, skutečná fotka Rosti, silný hero claim „To, že můžeš, ještě neznamená, že chceš“ a nic nepřetéká na 6 šířkách."
   ],
-  "verdikt": "Všechny minulé výtky jsou opravené a mobil už nepřetéká, proto se známka zvedá z 5 na 7. K odeslání ještě chybí dotáhnout koncept rozhodování do sekcí „Vyplatit“ a „Tři cesty“ a doložit zdroj telefonu. QA navíc hlásí šest dotykových cílů v mobilní hlavičce pod 40 px (odkazy 36 px vysoké).",
-  "_hash": "f97f385fc088f3880ee40d6d264f9f30acc30667"
+  "verdikt": "Dvě ze tří výtek jsou opravené dobře a koncept checklistu teď drží celý web. Neověřený telefon v kontaktu a patičce ale zůstal, takže známka zůstává 7, dokud se číslo neověří nebo neodstraní.",
+  "_hash": "9728eed131f832172cdbb7ea7d08186735bc806f"
 }

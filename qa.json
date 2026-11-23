@@ -3,7 +3,7 @@
   "ok": true,
   "chyby": [],
   "varovani": [
-    "Dotykové cíle <40 px na mobilu: 6× (např. a.logo \"\" 145×37; a \"Konzultace\" 79×36; a \"Workshop\" 69×36; a \"Supervize\" 69×36)"
+    "Dotykové cíle <40 px na mobilu: 5× (např. a \"Konzultace\" 79×36; a \"Workshop\" 69×36; a \"Supervize\" 69×36; a.tl \"Ozvi se\" 68×33)"
   ],
   "metriky": {
     "sirky": {
@@ -37,13 +37,13 @@
       "kB": 95,
       "url": "https://webhunter-navrhy.github.io/hrajsvojihru/logo-svetle.png"
     },
-    "snimku_PC": 6,
+    "snimku_PC": 7,
     "preneseno_mobil_MB": 0.57,
     "nejvetsi_obrazek_mobil": {
       "kB": 95,
       "url": "https://webhunter-navrhy.github.io/hrajsvojihru/logo-svetle.png"
     },
-    "snimku_mobil": 10,
+    "snimku_mobil": 11,
     "seo": {
       "title": "Hraj svoji hru – investuj do nemovitostí podle sebe | Rosťa Očenášek",
       "description": "Hraj svoji hru: konzultace, workshop a supervize pro lidi, kteří chtějí investovat do nemovitostí po",
@@ -58,7 +58,7 @@
       "canonical": true,
       "viewport": true
     },
-    "maly_dotykovy_cil": 6,
+    "maly_dotykovy_cil": 5,
     "font_nadpis": "Barlow Condensed",
     "font_text": "Barlow Condensed",
     "podstranky": {
