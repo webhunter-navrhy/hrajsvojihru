@@ -1,0 +1,8 @@
+<section class="sekce pomoc">
+  <div class="wrap">
+    <p class="stitek">Další možnosti</p><h2>Co dalšího nabízím</h2>
+    <div class="karty">
+      {% for c in data.obsah.cesty %}{% if c.h != cesta %}<a class="karta" href="{{ url(c.h) }}"><span class="k-c">{{ c.c }}</span><h3>{{ c.n }}</h3><p>{{ c.t }}</p><span class="k-d">Zjistit víc →</span></a>{% endif %}{% endfor %}
+    </div>
+  </div>
+</section>

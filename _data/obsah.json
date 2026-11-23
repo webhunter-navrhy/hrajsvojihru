@@ -1,0 +1,90 @@
+{
+ "filtr": [
+  {
+   "k": "Můžu?",
+   "z": "CAN",
+   "t": "Mám na to zdroje, zkušenosti, financování a možnosti?"
+  },
+  {
+   "k": "Chci?",
+   "z": "WANT",
+   "t": "Je to opravdu moje cesta? Chci i to, co s tím přichází: práci, riziko, závazky a cenu?"
+  },
+  {
+   "k": "Vyplatí se mi to?",
+   "z": "ROI",
+   "t": "Co mi to přinese, nejen v penězích, ale i v čase, energii, vztazích, klidu a naplnění?"
+  }
+ ],
+ "cena": [
+  [
+   "Peníze",
+   "finanční výnos, cashflow, zhodnocení."
+  ],
+  [
+   "Čas",
+   "kolik času získávám, nebo ztrácím?"
+  ],
+  [
+   "Vztahy",
+   "dopad na rodinu a blízké."
+  ],
+  [
+   "Energie",
+   "co mi projekt dává a co mě stojí?"
+  ],
+  [
+   "Klid a jistota",
+   "jaká rizika a závazky tím vytvářím?"
+  ],
+  [
+   "Naplnění",
+   "baví mě hra, kterou hraju? Posouvá mě?"
+  ]
+ ],
+ "principy": [
+  [
+   "Osobní odpovědnost",
+   "za svá rozhodnutí a jejich důsledky nesu odpovědnost já."
+  ],
+  [
+   "Dobrovolné závazky",
+   "nastavuju si vlastní pravidla a standardy."
+  ],
+  [
+   "Don’t leave crumbs",
+   "nedělej dnes rozhodnutí, jejichž následky budeš zítra nechtěně splácet časem, energií a svobodou."
+  ],
+  [
+   "Přístup je cíl",
+   "důležitý není jen výsledek, ale i cesta: radost z hry, učení a postupné zlepšování."
+  ]
+ ],
+ "odnesu": [
+  "Vím, co chci a proč.",
+  "Vím, kde jsem a s čím hraju.",
+  "Vidím různé cesty a umím je porovnat.",
+  "Vím, na co říkám ano a na co ne.",
+  "Dělám konkrétní kroky a průběžně je vyhodnocuju."
+ ],
+ "cesty": [
+  {
+   "c": "1",
+   "n": "Konzultace",
+   "t": "Řešíš konkrétní problém a potřebuješ se rychle rozhodnout.",
+   "h": "konzultace/"
+  },
+  {
+   "c": "2",
+   "n": "Workshop",
+   "t": "Chceš umět rozhodovat sám a poskládat si vlastní strategii.",
+   "h": "workshop/"
+  },
+  {
+   "c": "3",
+   "n": "Supervize",
+   "t": "Chceš doprovod při realizaci a pravidelné vyhodnocení.",
+   "h": "supervize/"
+  }
+ ]
+}

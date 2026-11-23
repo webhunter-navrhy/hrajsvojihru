@@ -1,0 +1,44 @@
+{% extends "_base.html" %}
+{% set titulek = 'Individuální konzultace k investování do nemovitostí | Hraj svoji hru' %}
+{% set popis = 'Řešíš konkrétní nemovitost nebo se potřebuješ rychle rozhodnout? Probereme tvůj záměr a zdroje a najdeme další kroky.' %}
+{% set cesta = 'konzultace/' %}{% set aktivni = 'konzultace/' %}
+{% block obsah %}
+<section class="hero pod">
+  <div class="wrap">
+    <p class="stitek">1 · První pomoc</p>
+    <h1>Individuální konzultace</h1>
+    <div class="hero-p"><p>Řešíš konkrétní problém nebo se potřebuješ rychle rozhodnout? Probereme tvůj záměr a zdroje a najdeme další kroky.</p><a class="btn" href="#kontakt">Chci konzultaci</a></div>
+  </div>
+</section>
+<section class="sekce">
+  <div class="wrap dva">
+    <div><p class="stitek">S čím ti pomůžu</p><h2>Kdy se konzultace hodí</h2></div>
+    <ul class="odnes" role="list">
+      <li>Řešíš konkrétní nemovitost nebo příležitost.</li>
+      <li>Zdědil jsi dům, máš rozjetý plán nebo nevíš, jaký bude další krok.</li>
+      <li>Potřebuješ se rychle rozhodnout a chceš to udělat s jasnou hlavou.</li>
+    </ul>
+  </div>
+</section>
+<section class="sekce principy">
+  <div class="wrap">
+    <p class="stitek">Jak to probíhá</p><h2>Od záměru ke krokům</h2>
+    <ol class="kroky" role="list">
+      <li><span class="cis">1</span><h3>Záměr</h3><p>Probereme, co vlastně chceš a proč.</p></li>
+      <li><span class="cis">2</span><h3>Zdroje</h3><p>Podíváme se na to, s čím hraješ: peníze, čas, lidé, zkušenosti.</p></li>
+      <li><span class="cis">3</span><h3>Další kroky</h3><p>Odcházíš s postupem, který zvládneš sám.</p></li>
+    </ol>
+    <p class="uvod pozn">Rozsah a termín domluvíme podle tvé situace.</p>
+  </div>
+</section>
+<section class="sekce">
+  <div class="wrap">
+    <p class="stitek">Tři otázky</p><h2>Můžu? Chci? Vyplatí se mi to?</h2>
+    <p class="uvod">Na těchhle otázkách stojí i konzultace. Každou příležitost přes ně projdeme, než uděláš další tah.</p>
+    <ol class="filtr tri" role="list">{% for f in data.obsah.filtr %}<li><span class="zk">{{ f.z }}</span><h3>{{ f.k }}</h3></li>{% endfor %}</ol>
+  </div>
+</section>
+{% include "_dalsi.html" %}
+{% set text = 'Napiš nebo zavolej. Společně zjistíme, jestli ti můžu pomoct, a když ne, řeknu ti to na rovinu.' %}
+{% include "_kontakt.html" %}
+{% endblock %}

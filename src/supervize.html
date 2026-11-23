@@ -1,0 +1,26 @@
+{% extends "_base.html" %}
+{% set titulek = 'Supervize: dlouhodobá podpora při investování | Hraj svoji hru' %}
+{% set popis = 'Pravidelné vedení s kontrolními body: společně vyhodnocujeme, co funguje, a upravujeme strategii.' %}
+{% set cesta = 'supervize/' %}{% set aktivni = 'supervize/' %}
+{% block obsah %}
+<section class="hero pod">
+  <div class="wrap">
+    <p class="stitek">3 · Dlouhodobá podpora</p>
+    <h1>Supervize</h1>
+    <div class="hero-p"><p>Pravidelné vedení s kontrolními body, kdy společně vyhodnocujeme, co funguje, a upravujeme strategii. Cílem je, abys mě časem nepotřeboval.</p><a class="btn" href="#kontakt">Ozvi se ohledně supervize</a></div>
+  </div>
+</section>
+<section class="sekce principy">
+  <div class="wrap">
+    <p class="stitek">Co v supervizi děláme</p><h2>Pravidelná kalibrace strategie</h2>
+    <ol class="kroky" role="list">
+      <li><span class="cis">1</span><h3>Vyhodnocení postupů</h3><p>Společně projdeme, co se ti podařilo a co ne.</p></li>
+      <li><span class="cis">2</span><h3>Kalibrace strategie</h3><p>Upravíme strategii podle toho, co ukázala realita.</p></li>
+      <li><span class="cis">3</span><h3>Další kroky</h3><p>Nastavíme navazující kroky na základě úprav.</p></li>
+    </ol>
+  </div>
+</section>
+{% include "_dalsi.html" %}
+{% set text = 'Napiš nebo zavolej. Společně zjistíme, jestli ti můžu pomoct, a když ne, řeknu ti to na rovinu.' %}
+{% include "_kontakt.html" %}
+{% endblock %}

@@ -1,0 +1,101 @@
+{% extends "_base.html" %}
+{% set titulek = 'Hraj svoji hru – investuj do nemovitostí podle sebe | Rosťa Očenášek' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap">
+    <p class="stitek">Nemovitosti · Podnikání · Majetek · Příjem · Svoboda</p>
+    <h1>To, že <em>můžeš</em>, ještě neznamená, že <em>chceš</em>.</h1>
+    <div class="hero-p">
+      <p>Neexistuje univerzální cesta, jak investovat. Každý hraje s jinými kartami: podle svých možností, zkušeností, cílů a představ o životě. Naučím tě sestavit si vlastní strategii s nemovitostmi, která sedí tobě, ne inzerátu.</p>
+      <a class="btn" href="#pomoc">Jak ti můžu pomoct</a>
+    </div>
+  </div>
+  <div class="pruh" aria-label="Můžu? Chci? Vyplatí se mi to?">
+    <div class="wrap"><span>Můžu?</span><i>×</i><span>Chci?</span><i>×</i><span>Vyplatí se mi to?</span><small>CAN × WANT × ROI</small></div>
+  </div>
+</section>
+
+<section class="sekce hra" id="hra">
+  <div class="wrap">
+    <p class="stitek">Hraj svoji hru</p>
+    <div class="hra-g">
+      <div>
+        <h2>Můj způsob, jak investovat do nemovitostí</h2>
+        <p class="uvod">Ne podle cizího návodu, ale podle vlastních možností, cílů a představ o životě. Ne každá dobrá příležitost je dobrá právě pro tebe. Každý radí něco jiného a ty nevíš, komu věřit. Tímhle filtrem začíná všechno, co spolu děláme.</p>
+      </div>
+      <ol class="filtr" role="list">
+        {% for f in data.obsah.filtr %}<li><span class="zk">{{ f.z }}</span><h3>{{ f.k }}</h3><p>{{ f.t }}</p></li>{% endfor %}
+      </ol>
+    </div>
+    <div class="verdikt">
+      <p>Moje rozhodnutí:</p>
+      <div class="chips" role="group" aria-label="Ukázka rozhodnutí">
+        <button type="button" aria-pressed="false">ano</button>
+        <button type="button" aria-pressed="false">ne</button>
+        <button type="button" aria-pressed="true">ještě ověřit</button>
+      </div>
+    </div>
+    <blockquote class="pribeh">
+      <p class="stitek">Odkud se to vzalo</p>
+      Mohl jsem koupit firmu, která by mi měsíčně vydělávala desítky tisíc skoro bez práce. A dokonce jsem to chtěl. Pak jsem si ale uvědomil, co k tomu patří: zaměstnanci, účetnictví, dojíždění. Věci, které jsem do rozhodnutí vůbec nezapočítal. Tehdy jsem pochopil, že to, že můžu, ještě neznamená, že chci, protože za všechno nějak platíme. A právě z toho vyrostla celá metoda.
+    </blockquote>
+  </div>
+</section>
+
+<section class="sekce cena">
+  <div class="wrap">
+    <h2>Co všechno se ti má „vyplatit“</h2>
+    <p class="uvod">Nejde jen o peníze. Každé rozhodnutí má svou cenu a ta se neplatí jen penězi. Tady je šest věcí, které si před dalším tahem zkontroluješ.</p>
+    <ul class="sest" role="list">
+      {% for c in data.obsah.cena %}<li><span class="cis">{{ loop.index }}</span><h3>{{ c[0] }}</h3><p>{{ c[1][0]|upper }}{{ c[1][1:] }}</p></li>{% endfor %}
+    </ul>
+    <p class="citat">Výnosná investice ještě nemusí být dobré rozhodnutí pro tvůj život. A když se naučíš říct „ne“, ušetříš si nejdražší chyby.</p>
+  </div>
+</section>
+
+<section class="sekce principy">
+  <div class="wrap">
+    <p class="stitek">Principy mojí hry</p>
+    <h2>Na čem to celé stojí</h2>
+    <dl class="pr">
+      {% for p in data.obsah.principy %}<div><dt>{{ p[0] }}</dt><dd>{{ p[1][0]|upper }}{{ p[1][1:] }}</dd></div>{% endfor %}
+    </dl>
+  </div>
+</section>
+
+<section class="sekce pomoc" id="pomoc">
+  <div class="wrap">
+    <p class="stitek">Jak ti můžu pomoct</p>
+    <h2>Tři cesty, jak hrát svoji hru</h2>
+    <p class="uvod">Hraj svoji hru je můj způsob, jak investovat do nemovitostí. Abys ho uměl používat při vlastních rozhodnutích, nabízím tři možnosti. Vyber si podle toho, kde jsi.</p>
+    <div class="karty">
+      {% for c in data.obsah.cesty %}<a class="karta" href="{{ url(c.h) }}"><span class="k-c">{{ c.c }}</span><h3>{{ c.n }}</h3><p>{{ c.t }}</p><span class="k-d">Zjistit víc →</span></a>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="sekce odnesu">
+  <div class="wrap odn-g">
+    <div>
+      <h2>Jak to vypadá, když hraješ svoji hru</h2>
+      <p class="stitek">Co si odneseš</p>
+    </div>
+    <ul class="odnes" role="list">{% for o in data.obsah.odnesu %}<li>{{ o }}</li>{% endfor %}</ul>
+  </div>
+</section>
+
+<section class="sekce proc">
+  <div class="wrap proc-g">
+    <div class="foto">{{ img('rosta.jpg', 'Rosťa Očenášek', sizes='(min-width: 60rem) 24rem, 60vw') }}</div>
+    <div>
+      <p class="stitek">Kdo za tím stojí · Proč to dělám</p>
+      <h2>Nejdražší není chyba, ale rozhodovat se v chaosu.</h2>
+      <p class="uvod">Dvacet let podnikám a investuju do nemovitostí. První byt jsem koupil v roce 2008 a koupil jsem ho špatně. Zhruba čtyřicet nemovitostí později vím, že nejdražší není chyba, ale rozhodovat se v chaosu.</p>
+      <p>Věřím, že nemovitosti jsou skvělý nástroj ke svobodě, pokud hraješ svoji hru a nekopíruješ cestu někoho jiného.</p>
+      <p class="citat">Dělej dnes taková rozhodnutí, za která si v budoucnu poděkuješ.</p>
+    </div>
+  </div>
+</section>
+{% include "_kontakt.html" %}
+{% endblock %}

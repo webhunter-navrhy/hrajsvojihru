@@ -1,0 +1,48 @@
+{
+  "slug": "hrajsvojihru",
+  "nazev": "Hraj svoji hru – Rosťa Očenášek",
+  "url": "https://webhunter-navrhy.github.io/hrajsvojihru/",
+  "base": "/hrajsvojihru/",
+  "lang": "cs",
+  "popis": "Hraj svoji hru: konzultace, workshop a supervize pro lidi, kteří chtějí investovat do nemovitostí podle vlastních možností, cílů a představ o životě.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "rosta.jpg",
+  "logo": "logo-tmave.png",
+  "theme_color": "#0d0d0c",
+  "typ": "ProfessionalService",
+  "ico": "",
+  "kontakt": {
+    "email": "rosta@gatrea.com",
+    "telefon": "+420 739 341 710",
+    "adresa": {
+      "ulice": "",
+      "psc": "",
+      "mesto": "",
+      "zeme": "CZ"
+    }
+  },
+  "oteviraci_doba": [],
+  "sameas": [],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Zpráva z webu Hraj svoji hru"
+  },
+  "nav": [
+    {
+      "text": "Konzultace",
+      "href": "konzultace/"
+    },
+    {
+      "text": "Workshop",
+      "href": "workshop/"
+    },
+    {
+      "text": "Supervize",
+      "href": "supervize/"
+    }
+  ],
+  "sluzba": ""
+}
