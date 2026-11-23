@@ -34,3 +34,7 @@
     });
   });
 })();
+
+if (document.fonts && document.fonts.load) {
+  ['400', '700'].forEach(function (w) { document.fonts.load(w + ' 1em "Barlow Condensed"', 'ěščřžýáíéůú'); });
+}
