@@ -134,3 +134,10 @@ a.karta:hover{transform:translateY(-4px);border-color:var(--ak)}
  .hl::after{content:none}
 }
 @media (max-width:40rem){.logo img{height:1.7rem}.logo{max-width:50%}.hl{padding-inline:0}.nav a.tl{font-size:.9rem;padding:.3rem .7rem}.tema{width:2.5rem;height:2.5rem}.hl{width:min(72rem,100% - 1.5rem)}}
+.rad{display:grid;margin:2.2rem 0}.rad li{display:grid;grid-template-columns:1fr auto;gap:.8rem 2rem;align-items:center;padding:1.1rem 0;border-top:1px solid var(--ln)}.rad li:last-child{border-bottom:1px solid var(--ln)}
+.rad h3{margin:0;font-size:1.7rem}.rad p{color:var(--mut)}
+.k-c{width:auto;height:auto;background:none;font-size:.95rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ak)!important;opacity:1!important;margin-bottom:.8rem;font-weight:600;line-height:1.3}
+[data-tema=tmave] .k-c{opacity:1}
+.karty.tri{grid-template-columns:1fr 1.5fr 1fr}
+.chips button{min-height:2.5rem}.nav a{padding-block:.6rem}.logo{min-height:2.75rem;display:flex;align-items:center}
+@media (max-width:60rem){.rad li{grid-template-columns:1fr}.karty.tri{grid-template-columns:1fr}}

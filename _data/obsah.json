@@ -69,19 +69,19 @@
  ],
  "cesty": [
   {
-   "c": "1",
+   "c": "Jednorázově · řešení konkrétní věci",
    "n": "Konzultace",
    "t": "Řešíš konkrétní problém a potřebuješ se rychle rozhodnout.",
    "h": "konzultace/"
   },
   {
-   "c": "2",
+   "c": "3 dny · hlavní program",
    "n": "Workshop",
    "t": "Chceš umět rozhodovat sám a poskládat si vlastní strategii.",
    "h": "workshop/"
   },
   {
-   "c": "3",
+   "c": "Průběžně · vyhodnocení po realizaci",
    "n": "Supervize",
    "t": "Chceš doprovod při realizaci a pravidelné vyhodnocení.",
    "h": "supervize/"

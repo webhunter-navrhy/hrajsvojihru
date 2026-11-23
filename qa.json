@@ -1,12 +1,9 @@
 {
   "url": "https://webhunter-navrhy.github.io/hrajsvojihru/",
-  "ok": false,
-  "chyby": [
-    "Horizontální přetečení na šířce 390: scrollWidth 406 > 390. Prvky: button.tema (pravý okraj 406); span (pravý okraj 392)",
-    "Horizontální přetečení na šířce 360: scrollWidth 406 > 360. Prvky: button.tema (pravý okraj 406); span (pravý okraj 392)"
-  ],
+  "ok": true,
+  "chyby": [],
   "varovani": [
-    "Dotykové cíle <40 px na mobilu: 1× (např. a \"rosta-ocenasek.cz\" 130×20)"
+    "Dotykové cíle <40 px na mobilu: 6× (např. a.logo \"\" 145×37; a \"Konzultace\" 79×36; a \"Workshop\" 69×36; a \"Supervize\" 69×36)"
   ],
   "metriky": {
     "sirky": {
@@ -28,11 +25,11 @@
       },
       "390": {
         "scrollWidth": 390,
-        "pocet_pretekajicich": 2
+        "pocet_pretekajicich": 0
       },
       "360": {
         "scrollWidth": 360,
-        "pocet_pretekajicich": 2
+        "pocet_pretekajicich": 0
       }
     },
     "preneseno_PC_MB": 0.57,
@@ -40,13 +37,13 @@
       "kB": 95,
       "url": "https://webhunter-navrhy.github.io/hrajsvojihru/logo-svetle.png"
     },
-    "snimku_PC": 7,
+    "snimku_PC": 6,
     "preneseno_mobil_MB": 0.57,
     "nejvetsi_obrazek_mobil": {
       "kB": 95,
       "url": "https://webhunter-navrhy.github.io/hrajsvojihru/logo-svetle.png"
     },
-    "snimku_mobil": 11,
+    "snimku_mobil": 10,
     "seo": {
       "title": "Hraj svoji hru – investuj do nemovitostí podle sebe | Rosťa Očenášek",
       "description": "Hraj svoji hru: konzultace, workshop a supervize pro lidi, kteří chtějí investovat do nemovitostí po",
@@ -61,7 +58,7 @@
       "canonical": true,
       "viewport": true
     },
-    "maly_dotykovy_cil": 1,
+    "maly_dotykovy_cil": 6,
     "font_nadpis": "Barlow Condensed",
     "font_text": "Barlow Condensed",
     "podstranky": {

@@ -48,8 +48,8 @@
   <div class="wrap">
     <h2>Co všechno se ti má „vyplatit“</h2>
     <p class="uvod">Nejde jen o peníze. Každé rozhodnutí má svou cenu a ta se neplatí jen penězi. Tady je šest věcí, které si před dalším tahem zkontroluješ.</p>
-    <ul class="sest" role="list">
-      {% for c in data.obsah.cena %}<li><span class="cis">{{ loop.index }}</span><h3>{{ c[0] }}</h3><p>{{ c[1][0]|upper }}{{ c[1][1:] }}</p></li>{% endfor %}
+    <ul class="rad" role="list">
+      {% for c in data.obsah.cena %}<li><div><h3>{{ c[0] }}</h3><p>{{ c[1][0]|upper }}{{ c[1][1:] }}</p></div><div class="chips" role="group" aria-label="{{ c[0] }}"><button type="button" aria-pressed="false">ano</button><button type="button" aria-pressed="false">ne</button><button type="button" aria-pressed="false">ještě ověřit</button></div></li>{% endfor %}
     </ul>
     <p class="citat">Výnosná investice ještě nemusí být dobré rozhodnutí pro tvůj život. A když se naučíš říct „ne“, ušetříš si nejdražší chyby.</p>
   </div>
@@ -70,7 +70,7 @@
     <p class="stitek">Jak ti můžu pomoct</p>
     <h2>Tři cesty, jak hrát svoji hru</h2>
     <p class="uvod">Hraj svoji hru je můj způsob, jak investovat do nemovitostí. Abys ho uměl používat při vlastních rozhodnutích, nabízím tři možnosti. Vyber si podle toho, kde jsi.</p>
-    <div class="karty">
+    <div class="karty tri">
       {% for c in data.obsah.cesty %}<a class="karta" href="{{ url(c.h) }}"><span class="k-c">{{ c.c }}</span><h3>{{ c.n }}</h3><p>{{ c.t }}</p><span class="k-d">Zjistit víc →</span></a>{% endfor %}
     </div>
   </div>

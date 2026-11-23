@@ -1,18 +1,16 @@
 {
-  "znamka": 5,
+  "znamka": 7,
   "slabiny": [
-    "Hlavička na mobilu (390 a 360 px): přepínač tématu button.tema přetéká až na 406 px a je useknutý u pravého okraje. Odkazy Konzultace, Workshop a Supervize na mobilu úplně chybí. Oprava: přepínač tématu přesunout do mobilního menu (hamburger), nebo zmenšit mezery a avatar u jména. Do menu doplnit odkazy na tři služby.",
-    "Hero na PC (1440 px) je jen text vlevo a pravá polovina zůstává prázdná. Jediný obraz na celém webu, portrét Rosti, je až v předposlední sekci. Pás „MŮŽU? × CHCI? × VYPLATÍ SE MI TO?“ pod hero působí jako marquee. Oprava: portrét (nebo reálnou fotku od klienta) dát do pravé poloviny hero. Pás zrušit, nebo ho spojit s blokem „Můj způsob“, kde se ty tři otázky stejně opakují.",
-    "Sekce „Co všechno se ti má vyplatit“ má mřížku očíslovanou 1–6 a „Tři cesty“ má obří čísla 1/2/3. To je zakázaný vzor číslování a dohromady s béžovými kartami to působí šablonovitě. Oprava: čísla odstranit. Šest hodnot dát jako kompaktní checklist ve stylu interaktivního bloku „Moje rozhodnutí“ (ano / ne / ještě ověřit), aby koncept „hraj svoji hru“ prošel celým webem. Služby odlišit délkou a formou (např. Workshop: 3 dny), ne číslem."
+    "Sekce „Co všechno se ti má vyplatit“ (PC i mobil): čísla 1–6 jsou pryč, ale šest hodnot zůstalo jako béžová mřížka karet s čárkou nahoře. Na PC je to tabulka 3×2, na mobilu šest karet pod sebou, takže pořád působí šablonovitě. Oprava: udělat z nich kompaktní checklist ve stylu bloku „Moje rozhodnutí“. Každý řádek bude mít hodnotu (Peníze, Čas…), otázku a malé přepínače ano / ne / ještě ověřit, ať koncept „hraj svoji hru“ pokračuje i tady.",
+    "Sekce „Tři cesty, jak hrát svoji hru“: obří čísla jsou pryč, ale Konzultace, Workshop a Supervize jsou tři stejné béžové karty se stejnou čárkou, jen krátký text a „Zjistit víc“. Forma služby se z karet nepozná. Oprava: u každé karty uvést formu a délku. U Workshopu doplnit „3 dny“ podle briefu, u Konzultace a Supervize napsat jen to, co je doložené. Karty odlišit i tvarem nebo šířkou (např. Workshop jako hlavní, širší), ne jen textem.",
+    "Kontakt „Chceš vědět víc?“ (mobil, snímek 10) a site.json: telefon +420 739 341 710 v briefu není, brief uvádí jen rosta@gatrea.com. Oprava: ověřit číslo na rosta-ocenasek.cz nebo v podkladech klientky a zdroj zapsat do briefu. Když ho ověřit nejde, telefon odstranit a text „Napiš nebo zavolej“ změnit na „Napiš mi“."
   ],
-  "zavazne": [
-    "Hlavička na mobilu 390 a 360 px: horizontální přetečení (scrollWidth 406 px), přepínač tématu je useknutý mimo obrazovku a stránka jde posouvat do strany."
-  ],
+  "zavazne": [],
   "silne": [
-    "Silný koncept z obsahu klienta: filtr Můžu? / Chci? / Vyplatí se mi to? (CAN, WANT, ROI) s interaktivním blokem „Moje rozhodnutí“.",
-    "Typografie a barvy vychází z brandu rosta-ocenasek.cz. Olivová s krémovou je světlá, ne tmavý wealth look, a diakritika v Barlow Condensed je v pořádku.",
-    "Texty jsou osobní a konkrétní (příběh „Odkud se to vzalo“, principy) a kontakt je jasný: formulář, e-mail a CTA „Ozvi se“ v hlavičce."
+    "Všechny čtyři minulé výtky k hlavičce a hero jsou opravené. Na 390 a 360 px už nic nepřetéká (scrollWidth 390/360). Přepínač tématu je celý vidět a odkazy Konzultace, Workshop a Supervize jsou na mobilu ve druhém řádku hlavičky.",
+    "Hero na PC má teď portrét Rosti v pravé polovině, takže kompozice je vyvážená. Pás „MŮŽU? × CHCI? × VYPLATÍ SE MI TO?“ zmizel a tři otázky zůstaly jen v bloku „Můj způsob“ s interaktivním „Moje rozhodnutí“, což je nejsilnější nápad webu.",
+    "Číslování 1–6 a 1/2/3 je odstraněné. Paleta a písmo drží brand z rosta-ocenasek.cz (olivová + světlý podklad) a texty jsou z podkladů klientky, osobní a konkrétní („Mohl jsem koupit firmu…“)."
   ],
-  "verdikt": "opravit – Koncept a brand drží, ale přetečení hlavičky na mobilu stropuje známku na 5. Po opravě mobilu, přidání obrazu do hero a odstranění číslovaných karet má web na 8.",
-  "_hash": "96b12577fa850a6cdc81740be9b90373baa72518"
+  "verdikt": "Všechny minulé výtky jsou opravené a mobil už nepřetéká, proto se známka zvedá z 5 na 7. K odeslání ještě chybí dotáhnout koncept rozhodování do sekcí „Vyplatit“ a „Tři cesty“ a doložit zdroj telefonu. QA navíc hlásí šest dotykových cílů v mobilní hlavičce pod 40 px (odkazy 36 px vysoké).",
+  "_hash": "f97f385fc088f3880ee40d6d264f9f30acc30667"
 }
