@@ -1,10 +1,7 @@
 {
   "url": "https://webhunter-navrhy.github.io/hrajsvojihru/",
-  "ok": false,
-  "chyby": [
-    "Font nadpis „Barlow Condensed“ nemá glyfy ěščřžůĚŠČŘŽŮ (háčky/čárky se kreslí fallbackem)",
-    "Font text „Barlow Condensed“ nemá glyfy ěščřžůĚŠČŘŽŮ (háčky/čárky se kreslí fallbackem)"
-  ],
+  "ok": true,
+  "chyby": [],
   "varovani": [
     "Dotykové cíle <40 px na mobilu: 4× (např. a.logo \"\" 188×35; button.tema \"Přepnout tmavý a svě\" 38×38; button \"Napiš mi\" 84×34; a \"rosta-ocenasek.cz\" 130×20)"
   ],
