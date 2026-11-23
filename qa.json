@@ -3,7 +3,7 @@
   "ok": true,
   "chyby": [],
   "varovani": [
-    "Dotykové cíle <40 px na mobilu: 5× (např. a \"Konzultace\" 79×36; a \"Workshop\" 69×36; a \"Supervize\" 69×36; a.tl \"Ozvi se\" 68×33)"
+    "Dotykové cíle <40 px na mobilu: 1× (např. a \"rosta-ocenasek.cz\" 130×20)"
   ],
   "metriky": {
     "sirky": {
@@ -58,7 +58,7 @@
       "canonical": true,
       "viewport": true
     },
-    "maly_dotykovy_cil": 5,
+    "maly_dotykovy_cil": 1,
     "font_nadpis": "Barlow Condensed",
     "font_text": "Barlow Condensed",
     "podstranky": {

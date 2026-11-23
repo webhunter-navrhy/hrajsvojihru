@@ -1,16 +1,16 @@
 {
   "znamka": 7,
   "slabiny": [
-    "Kontakt „Chceš vědět víc?“ (PC snímek 7, mobil snímky 10–11) a patička: minulá výtka není opravená. Telefon +420 739 341 710 je na webu dál, i když ho brief neuvádí (je tam jen rosta@gatrea.com), a text pořád zní „Napiš nebo zavolej“. Oprava: číslo ověřit na rosta-ocenasek.cz nebo v podkladech klientky a zdroj zapsat do briefu. Když to nepůjde, odstranit ho z kontaktu, patičky i JSON-LD a text změnit na „Napiš mi“.",
-    "Hlavička na mobilu (390 px, všechny snímky): menu se láme na dva řádky. Konzultace je vpravo vedle „Ozvi se“, Workshop a Supervize spadnou pod logo. Odkazy jsou vysoké 36 px a „Ozvi se“ 33 px (QA: 5 cílů pod 40 px). Oprava: na mobilu nechat v jednom řádku jen logo, „Ozvi se“ a přepínač tématu. Tři služby dát do rozbalovacího menu nebo do vodorovného řádku pod hlavičku, s cíli aspoň 44 px.",
-    "Hero na mobilu (snímek 1): štítek „NEMOVITOSTI · PODNIKÁNÍ · MAJETEK · PŘÍJEM · SVOBODA“ se zalomí tak, že druhý řádek začíná osiřelou tečkou „· SVOBODA“. Oprava: mezi tečku a slovo dát nezlomitelnou mezeru, nebo na mobilu štítek zkrátit či rozdělit do dvou vyvážených řádků."
+    "Kontakt „Chceš vědět víc?“ (PC snímek 7) a patička na mobilu (snímek 11): text je opravený na „Napiš mi“, ale telefon +420 739 341 710 na webu zůstal. V briefu pořád není (jen rosta@gatrea.com) a ve složce webu není brief.json ani podklady se zdrojem. Oprava: číslo ověřit na rosta-ocenasek.cz a zdroj zapsat do briefu. Jinak ho odstranit z kontaktu, patičky i JSON-LD.",
+    "Hero na mobilu (snímek 1): štítek se teď zalomí na „NEMOVITOSTI · PODNIKÁNÍ · MAJETEK“ a „· PŘÍJEM · SVOBODA“, takže druhý řádek pořád začíná osiřelou tečkou. Nezlomitelná mezera je za tečkou, má být před ní. Oprava: psát „slovo&nbsp;·&nbsp;slovo“, aby tečka zůstala na konci řádku. Další možnost je na mobilu rozdělit štítek ručně na dva řádky bez teček na kraji (např. „Nemovitosti · Podnikání · Majetek“ / „Příjem · Svoboda“).",
+    "Hlavička a patička na mobilu (390 px, všechny snímky): logo se jménem „Rosťa Očenášek“ je zmenšené zhruba na 10 px písma a vedle velkého „Ozvi se“ je skoro nečitelné. Odkaz rosta-ocenasek.cz v patičce má jen 20 px na výšku (QA). Oprava: logo na mobilu zvětšit aspoň na 28–32 px výšky (portrét + jméno čitelně). Odkazu v patičce dát padding, aby měl výšku aspoň 44 px."
   ],
   "zavazne": [],
   "silne": [
-    "Výtka 1 je opravená: „Co všechno se ti má vyplatit“ je teď kompaktní checklist (hodnota, otázka, ano / ne / ještě ověřit). Navazuje na blok „Moje rozhodnutí“, takže koncept „hraj svoji hru“ se táhne celou stránkou.",
-    "Výtka 2 je opravená: u každé ze tří cest je forma služby (Jednorázově, 3 dny · hlavní program, Průběžně) a Workshop je na PC širší jako hlavní nabídka.",
-    "Brand je čitelný: fonty a olivová barva z rosta-ocenasek.cz, skutečná fotka Rosti, silný hero claim „To, že můžeš, ještě neznamená, že chceš“ a nic nepřetéká na 6 šířkách."
+    "Hlavička na mobilu je opravená: logo, „Ozvi se“ a přepínač tématu jsou v jednom řádku a tři služby ve vodorovném řádku pod nimi. Nic se neláme a QA hlásí jen jeden malý cíl (v patičce).",
+    "Koncept „Hraj svoji hru“ je vidět v celém webu: rozhodovací filtr Můžu/Chci/Vyplatí se a tlačítka ano/ne/ještě ověřit procházejí sekcemi. Je to nápad z metody klienta, ne šablona.",
+    "Brand sedí: Barlow Condensed a olivová z rosta-ocenasek.cz, světlé téma a portrét klienta. Nikde nepřetéká na žádné ze 6 šířek a stránka má jen 0,57 MB."
   ],
-  "verdikt": "Dvě ze tří výtek jsou opravené dobře a koncept checklistu teď drží celý web. Neověřený telefon v kontaktu a patičce ale zůstal, takže známka zůstává 7, dokud se číslo neověří nebo neodstraní.",
-  "_hash": "9728eed131f832172cdbb7ea7d08186735bc806f"
+  "verdikt": "Hlavička na mobilu je opravená, ale telefon bez zdroje zůstal a osiřelá tečka v hero štítku se jen přesunula na začátek druhého řádku. Po těchto dvou drobných opravách je web na odeslání.",
+  "_hash": "e2ee472e020045e7e62378ab2e08791839cb603e"
 }
