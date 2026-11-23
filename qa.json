@@ -1,9 +1,12 @@
 {
   "url": "https://webhunter-navrhy.github.io/hrajsvojihru/",
-  "ok": true,
-  "chyby": [],
+  "ok": false,
+  "chyby": [
+    "Horizontální přetečení na šířce 390: scrollWidth 406 > 390. Prvky: button.tema (pravý okraj 406); span (pravý okraj 392)",
+    "Horizontální přetečení na šířce 360: scrollWidth 406 > 360. Prvky: button.tema (pravý okraj 406); span (pravý okraj 392)"
+  ],
   "varovani": [
-    "Dotykové cíle <40 px na mobilu: 4× (např. a.logo \"\" 188×35; button.tema \"Přepnout tmavý a svě\" 38×38; button \"Napiš mi\" 84×34; a \"rosta-ocenasek.cz\" 130×20)"
+    "Dotykové cíle <40 px na mobilu: 1× (např. a \"rosta-ocenasek.cz\" 130×20)"
   ],
   "metriky": {
     "sirky": {
@@ -25,11 +28,11 @@
       },
       "390": {
         "scrollWidth": 390,
-        "pocet_pretekajicich": 0
+        "pocet_pretekajicich": 2
       },
       "360": {
         "scrollWidth": 360,
-        "pocet_pretekajicich": 0
+        "pocet_pretekajicich": 2
       }
     },
     "preneseno_PC_MB": 0.57,
@@ -58,7 +61,7 @@
       "canonical": true,
       "viewport": true
     },
-    "maly_dotykovy_cil": 4,
+    "maly_dotykovy_cil": 1,
     "font_nadpis": "Barlow Condensed",
     "font_text": "Barlow Condensed",
     "podstranky": {

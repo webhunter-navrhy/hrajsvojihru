@@ -1,0 +1,18 @@
+{
+  "znamka": 5,
+  "slabiny": [
+    "Hlavička na mobilu (390 a 360 px): přepínač tématu button.tema přetéká až na 406 px a je useknutý u pravého okraje. Odkazy Konzultace, Workshop a Supervize na mobilu úplně chybí. Oprava: přepínač tématu přesunout do mobilního menu (hamburger), nebo zmenšit mezery a avatar u jména. Do menu doplnit odkazy na tři služby.",
+    "Hero na PC (1440 px) je jen text vlevo a pravá polovina zůstává prázdná. Jediný obraz na celém webu, portrét Rosti, je až v předposlední sekci. Pás „MŮŽU? × CHCI? × VYPLATÍ SE MI TO?“ pod hero působí jako marquee. Oprava: portrét (nebo reálnou fotku od klienta) dát do pravé poloviny hero. Pás zrušit, nebo ho spojit s blokem „Můj způsob“, kde se ty tři otázky stejně opakují.",
+    "Sekce „Co všechno se ti má vyplatit“ má mřížku očíslovanou 1–6 a „Tři cesty“ má obří čísla 1/2/3. To je zakázaný vzor číslování a dohromady s béžovými kartami to působí šablonovitě. Oprava: čísla odstranit. Šest hodnot dát jako kompaktní checklist ve stylu interaktivního bloku „Moje rozhodnutí“ (ano / ne / ještě ověřit), aby koncept „hraj svoji hru“ prošel celým webem. Služby odlišit délkou a formou (např. Workshop: 3 dny), ne číslem."
+  ],
+  "zavazne": [
+    "Hlavička na mobilu 390 a 360 px: horizontální přetečení (scrollWidth 406 px), přepínač tématu je useknutý mimo obrazovku a stránka jde posouvat do strany."
+  ],
+  "silne": [
+    "Silný koncept z obsahu klienta: filtr Můžu? / Chci? / Vyplatí se mi to? (CAN, WANT, ROI) s interaktivním blokem „Moje rozhodnutí“.",
+    "Typografie a barvy vychází z brandu rosta-ocenasek.cz. Olivová s krémovou je světlá, ne tmavý wealth look, a diakritika v Barlow Condensed je v pořádku.",
+    "Texty jsou osobní a konkrétní (příběh „Odkud se to vzalo“, principy) a kontakt je jasný: formulář, e-mail a CTA „Ozvi se“ v hlavičce."
+  ],
+  "verdikt": "opravit – Koncept a brand drží, ale přetečení hlavičky na mobilu stropuje známku na 5. Po opravě mobilu, přidání obrazu do hero a odstranění číslovaných karet má web na 8.",
+  "_hash": "96b12577fa850a6cdc81740be9b90373baa72518"
+}

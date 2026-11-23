@@ -3,17 +3,18 @@
 {% set cesta = '' %}
 {% block obsah %}
 <section class="hero">
-  <div class="wrap">
+  <div class="wrap hero-g">
+   <div>
     <p class="stitek">Nemovitosti · Podnikání · Majetek · Příjem · Svoboda</p>
     <h1>To, že <em>můžeš</em>, ještě neznamená, že <em>chceš</em>.</h1>
     <div class="hero-p">
       <p>Neexistuje univerzální cesta, jak investovat. Každý hraje s jinými kartami: podle svých možností, zkušeností, cílů a představ o životě. Naučím tě sestavit si vlastní strategii s nemovitostmi, která sedí tobě, ne inzerátu.</p>
       <a class="btn" href="#pomoc">Jak ti můžu pomoct</a>
     </div>
+   </div>
+   <div class="hero-foto">{{ img('rosta.jpg', 'Rosťa Očenášek', sizes='(min-width: 60rem) 26rem, 15rem', eager=true) }}</div>
   </div>
-  <div class="pruh" aria-label="Můžu? Chci? Vyplatí se mi to?">
-    <div class="wrap"><span>Můžu?</span><i>×</i><span>Chci?</span><i>×</i><span>Vyplatí se mi to?</span><small>CAN × WANT × ROI</small></div>
-  </div>
+  <div class="pas"></div>
 </section>
 
 <section class="sekce hra" id="hra">
